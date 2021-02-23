@@ -1,0 +1,62 @@
+@import "typeface.css";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: black;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  color: #555353;
+  width: 1050px;
+  margin: 0 auto;
+  background-color: white;
+}
+body header {
+  text-align: center;
+}
+body header .img {
+  max-width: 100%;
+  max-height: 550px;
+  overflow: hidden;
+  margin-top: 1rem;
+  position: relative;
+}
+body .title {
+  max-width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  color: yellow;
+  text-align: left;
+  padding: 0;
+}
+body .title h2, body .title h3 {
+  margin: 0 auto;
+}
+body .title h4 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  padding: 1rem 3rem;
+}
+main .history {
+  background-color: #e9e6e6;
+  padding: 1rem 3rem;
+}
+main .history .comment {
+  box-shadow: 10px 10px 5px #aaaaaa;
+  padding: 0.5rem;
+}
+main footer {
+  text-align: center;
+  padding: 1rem 0.05rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */
